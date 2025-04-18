@@ -1,0 +1,28 @@
+#root {
+  width: max-content;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  --main-color: rgba(9, 237, 55, 0.097) ;
+}
+.doctor-list {
+  width: 100vw;
+  height: 100vh;
+  margin: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.main-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem;
+  font-family: Arial, sans-serif;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  color: black;
+}

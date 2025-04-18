@@ -1,0 +1,40 @@
+.appoint-list {
+
+  margin-top: 2rem;
+}
+.appoint-head {
+    
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+
+}
+
+.appoint-card-list  {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    margin: 5px;
+    
+    height: 80vh;
+}
+
+.appoint-card {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 200px;
+    width:220px;
+    background-color: var(--main-color);
+    margin: 6px;
+    border: 1px solid black;
+    border-radius: 30px;
+    
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.appoint-card:hover {
+    position: relative;
+    top: 6px;
+    }
